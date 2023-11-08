@@ -18,7 +18,7 @@ function createBingoCard() {
       "Noods Folder",
       "Asmondgold Clip",
       "Work on game",
-      "ADs",
+      "(b)ADs",
       "Holding Ferret",
       "Heidi Klum",
       "Don't buy my game",
