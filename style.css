@@ -1,15 +1,17 @@
 table {
     border-collapse: collapse;
-    width: 900px;
-    background-color: #242424;
+    width: 600px;
+    background-color: #282c35;
 }
 
 body {
     font-family: "Comic Sans MS", cursive;
-    background-color: #181818;
+    background-color: #1e1f26;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -18,14 +20,15 @@ h1 {
 }
 
 table,td {
-    width: 160px;
-    height: 100px;
-    border: 1px solid black;
+    border: 1px solid #444;
+    width: 120px;
+    height: 120px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.2;
     font-family: "Comic Sans MS", cursive;
     color: #fefefe;
+    background-color: #32353e;
 }
 
 td {
