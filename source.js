@@ -65,10 +65,10 @@ createBingoCard();
 const tdElements = document.querySelectorAll("td");
 
 tdElements.forEach((td) => {
-    let originalColor = td.style.backgroundColor;
+    let originalColor = getComputedStyle(td).backgroundColor;
 
     td.addEventListener("click", () => {
-        if (td.style.backgroundColor === originalColor) {
+        if (getComputedStyle(td).backgroundColor === originalColor) {
             td.style.backgroundColor = "#8b0000"; // Dark Red
         } else {
             td.style.backgroundColor = originalColor;
