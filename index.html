@@ -35,13 +35,12 @@
     </table>
 
     <script>
-      function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
         }
-      }
-
 
       function createBingoCard() {
         const bingoCard = document.getElementById("bingo-card");
@@ -81,24 +80,25 @@
           "Onion",
         ];
 
-        shuffleArray(phrases);
 
-        let cellIndex = 0;
-        for (let row = 0; row < 5; row++) {
-          const tr = document.createElement("tr");
+            shuffleArray(phrases);
 
-          for (let col = 0; col < 5; col++) {
-            const td = document.createElement("td");
-            td.textContent = phrases[cellIndex];
-            tr.appendChild(td);
-            cellIndex++;
-          }
+            let cellIndex = 0;
+            for (let row = 0; row < 5; row++) {
+                const tr = document.createElement('tr');
 
-          bingoCard.appendChild(tr);
+                for (let col = 0; col < 5; col++) {
+                    const td = document.createElement('td');
+                    td.textContent = phrases[cellIndex];
+                    tr.appendChild(td);
+                    cellIndex++;
+                }
+
+                bingoCard.appendChild(tr);
+            }
         }
-      }
 
-      createBingoCard();
+        createBingoCard();
     </script>
-  </body>
+</body>
 </html>
