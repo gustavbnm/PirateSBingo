@@ -98,6 +98,13 @@
         }
 
         createBingoCard();
+        const tdElements = document.querySelectorAll('td');
+
+        tdElements.forEach((td) => {
+            td.addEventListener('click', () => {
+                td.style.backgroundColor = '#8b0000'; // Dark Red
+            });
+        });
     </script>
 </body>
 </html>
