@@ -76,7 +76,3 @@ createBingoCard();
           }
         });
       });
-    </script>
-  </body>
-</html>
-
