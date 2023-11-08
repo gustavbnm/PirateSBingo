@@ -9,6 +9,7 @@
       }
       body {
         font-family: "Comic Sans MS", cursive; /* Comic Sans font */
+        background-color: #333; /* Dark background color */
       }
       table,
       td {
@@ -41,23 +42,6 @@
         }
       }
 
-      function getRandomBrightColor() {
-        const letters = "0123456789ABCDEF";
-        let color = "#";
-        for (let i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-      }
-
-      function getRandomBrightTextColor() {
-        const letters = "0123456789ABCDEF";
-        let color = "#";
-        for (let i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-      }
 
       function createBingoCard() {
         const bingoCard = document.getElementById("bingo-card");
