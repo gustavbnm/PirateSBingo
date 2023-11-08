@@ -61,3 +61,22 @@ function createBingoCard() {
 }
 
 createBingoCard();
+
+
+      const tdElements = document.querySelectorAll("td");
+
+      tdElements.forEach((td) => {
+        let originalColor = td.style.backgroundColor;
+
+        td.addEventListener("click", () => {
+          if (td.style.backgroundColor === originalColor) {
+            td.style.backgroundColor = "#8b0000"; // Dark Red
+          } else {
+            td.style.backgroundColor = originalColor;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
+
