@@ -19,7 +19,8 @@ h1 {
     color: #fefefe;
 }
 
-table,td {
+td {
+    padding: 10px;
     border: 1px solid #444;
     width: 120px;
     height: 120px;
@@ -29,8 +30,4 @@ table,td {
     font-family: "Comic Sans MS", cursive;
     color: #fefefe;
     background-color: #32353e;
-}
-
-td {
-    padding: 10px;
 }
