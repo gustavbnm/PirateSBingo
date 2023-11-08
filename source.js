@@ -75,5 +75,3 @@ tdElements.forEach((td) => {
         }
     });
 });
-        });
-      });
