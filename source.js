@@ -62,17 +62,18 @@ function createBingoCard() {
 
 createBingoCard();
 
+const tdElements = document.querySelectorAll("td");
 
-      const tdElements = document.querySelectorAll("td");
+tdElements.forEach((td) => {
+    let originalColor = getComputedStyle(td).backgroundColor;
 
-      tdElements.forEach((td) => {
-        let originalColor = td.style.backgroundColor;
-
-        td.addEventListener("click", () => {
-          if (td.style.backgroundColor === originalColor) {
+    td.addEventListener("click", () => {
+        if (getComputedStyle(td).backgroundColor === originalColor) {
             td.style.backgroundColor = "#8b0000"; // Dark Red
-          } else {
+        } else {
             td.style.backgroundColor = originalColor;
-          }
+        }
+    });
+});
         });
       });
