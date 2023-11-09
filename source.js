@@ -9,6 +9,7 @@ function createBingoCard() {
     const bingoCard = document.getElementById("bingo-card");
     const phrases = [
       "Pirate Software Story",
+      "Burrito Index",
       "DnD chest",
       "He who has no life",
       "Talks about his hair",
