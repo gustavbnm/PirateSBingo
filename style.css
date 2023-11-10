@@ -29,5 +29,6 @@ td {
     line-height: 1.2;
     font-family: "Comic Sans MS", cursive;
     color: #fefefe;
+    white-space: pre-line;
     background-color: #32353e;
 }

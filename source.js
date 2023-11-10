@@ -8,6 +8,7 @@ function shuffleArray(array) {
 function createBingoCard() {
     const bingoCard = document.getElementById("bingo-card");
     const phrases = [
+      ">Ask a question 7 times[NEWLINE]>Still no answer",
       "Pirate Software Story",
       "Burrito Index",
       "DnD chest",
@@ -52,7 +53,7 @@ function createBingoCard() {
 
         for (let col = 0; col < 5; col++) {
             const td = document.createElement('td');
-            td.textContent = phrases[cellIndex];
+            td.textContent = phrases[cellIndex].replace("[NEWLINE]", '\n');
             tr.appendChild(td);
             cellIndex++;
         }
