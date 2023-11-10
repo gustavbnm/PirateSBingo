@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="source.js" defer></script>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script>
-            $(document).ready(function() {
-              // Select all elements that have text starting with ">"
-              $('*:contains(">")').each(function() {
-                var text = $(this).text();
-                if (text.indexOf('>') === 0) {
-                  $(this).css('color', '#afc960');
+<head>
+    <script src="source.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Select all elements that have text starting with ">"
+            var elements = document.querySelectorAll('*');
+
+            elements.forEach(function(element) {
+                if (element.textContent.indexOf('>') === 0) {
+                    element.style.color = '#afc960';
                 }
-              });
             });
-          </script>
-    </head>
-    <body>
-        <h1>Pirate Software Bingo</h1>
-        <table>
-            <tbody id="bingo-card"></tbody>
-        </table>
-    </body>
+        });
+    </script>
+</head>
+<body>
+    <h1>Pirate Software Bingo</h1>
+    <table>
+        <tbody id="bingo-card"></tbody>
+    </table>
+</body>
 </html>
