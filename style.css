@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url(./resources/openDsylexic.otf) format('opentype');
+}
+
 table {
     border-collapse: collapse;
     width: 600px;
@@ -27,8 +32,18 @@ td {
     text-align: center;
     font-size: 16px;
     line-height: 1.2;
-    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
     color: #fefefe;
     white-space: pre-line;
     background-color: #32353e;
+}
+.dsylexicButton {
+    margin-top: 2rem;
+    font-family: 'OpenDyslexic' !important;
+    background-color: #32353e;
+    color: #fefefe;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 1rem;
+    filter: drop-shadow(0px 0px 5px #ebd2ad);
+    cursor: pointer;
 }
