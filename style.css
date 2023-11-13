@@ -5,7 +5,7 @@ table {
 }
 
 body {
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
     background-color: #1e1f26;
 
     display: flex;
@@ -27,7 +27,7 @@ td {
     text-align: center;
     font-size: 16px;
     line-height: 1.2;
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
     color: #fefefe;
     white-space: pre-line;
     background-color: #32353e;
