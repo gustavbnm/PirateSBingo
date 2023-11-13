@@ -14,6 +14,7 @@ function createBingoCard() {
       "DnD chest",
       "He who has no life",
       "Talks about his hair",
+      "Now its going to die",
       "Psychoholics",
       "Defcon Black Badge",
       "AI Thor Error",
