@@ -78,3 +78,16 @@ tdElements.forEach((td) => {
         }
     });
 });
+
+function dsylexia() {
+    var paragraphElement = document.querySelector('.dsylexicButton p');
+    curFont = window.getComputedStyle(document.body).fontFamily;
+    console.log(curFont)
+    if (curFont != "\"Comic Sans MS\", \"Chalkboard SE\", \"Comic Neue\", sans-serif") {
+        document.body.style.fontFamily = "\"Comic Sans MS\", \"Chalkboard SE\", \"Comic Neue\", sans-serif";
+        paragraphElement.textContent = "I not read can";
+    } else {
+        document.body.style.fontFamily = 'OpenDyslexic';
+        paragraphElement.textContent = "I read can";
+    }
+}
