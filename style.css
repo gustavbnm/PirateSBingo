@@ -47,4 +47,5 @@ td {
     border-radius: 1rem;
     filter: drop-shadow(0px 0px 5px #ebd2ad);
     cursor: pointer;
+    user-select: none;
 }
