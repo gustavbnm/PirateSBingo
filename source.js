@@ -22,6 +22,9 @@ function createBingoCard() {
       "\"Deeply hilarious\"",
       "\"Don't quit your day job\"",
       "\"Eat my entire ass.\"",
+      "\"No sevens in chat\"",
+      "\"100%\"",
+      "\"Deeply Hilarious\"",
       "How to hack legally",
       "Work/Sleep schedule",
       "Bok Choy",
@@ -49,7 +52,6 @@ function createBingoCard() {
       "Life Story",
       "Shorts Strategy",
       "Subscriber Count",
-       "\"No sevens in chat\"",
       "7",
       "Block Game",
       "Hotdog Clip",
@@ -63,7 +65,6 @@ function createBingoCard() {
       "Shay Appearance",
       "Blizzard Stories",
       "Make Box Move",
-      "\"100%\"",
       "Work/Sleep Schedule",
       "Thor's out of touch",
       "Our Dad",
@@ -84,7 +85,6 @@ function createBingoCard() {
       "Cursed TTS Donation Message",
       "You interacted with my Shorts, You're stuck with me.",
       "Eagles Per Gun, Feet/Centipedes",
-      "\"Deeply Hilarious\"",
     ];
 
     shuffleArray(phrases);
