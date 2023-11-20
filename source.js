@@ -7,7 +7,7 @@ function shuffleArray(array) {
 
 function createBingoCard() {
     const bingoCard = document.getElementById("bingo-card");
-    const phrases = [
+     const phrases = [
       ">Ask a question 7 times[NEWLINE]>Still no answer",
       ">pauses music for serious stuff",
       ">talks about his hair",
@@ -22,9 +22,6 @@ function createBingoCard() {
       "\"Deeply hilarious\"",
       "\"Don't quit your day job\"",
       "\"Eat my entire ass.\"",
-      "\"No sevens in chat\"",
-      "\"100%\"",
-      "\"Deeply Hilarious\"",
       "How to hack legally",
       "Work/Sleep schedule",
       "Bok Choy",
@@ -52,6 +49,7 @@ function createBingoCard() {
       "Life Story",
       "Shorts Strategy",
       "Subscriber Count",
+       "\"No sevens in chat\"",
       "7",
       "Block Game",
       "Hotdog Clip",
@@ -63,8 +61,8 @@ function createBingoCard() {
       "You are Allowed to Make Games",
       "Music Stops for Some Serious Stuff",
       "Shay Appearance",
-      "Blizzard Stories",
       "Make Box Move",
+      "\"100%\"",
       "Work/Sleep Schedule",
       "Thor's out of touch",
       "Our Dad",
@@ -72,19 +70,17 @@ function createBingoCard() {
       "Interview Box",
       "Onion",
       "Pak Choy",
-      "Game Jam",
       "Develop.Games",
-      "Free Socks",
       "Buy the Heartbound Demo",
       "Don't Quit Your Day Job!",
       "Dad is the WOW Guy South Park",
-      "Ferretts",
       "Eat My WHOLE ASS",
       "How to Start Hacking LEGALLY",
       "Rick Roll",
       "Cursed TTS Donation Message",
       "You interacted with my Shorts, You're stuck with me.",
       "Eagles Per Gun, Feet/Centipedes",
+      "\"Deeply Hilarious\"",
     ];
 
     shuffleArray(phrases);
