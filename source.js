@@ -14,11 +14,12 @@ function createBingoCard() {
       "DnD chest",
       "He who has no life",
       "Talks about his hair",
-      "\"Now its going to die\"",
+      "\"Now it's going to die\"",
       "Psychoholics",
       "Defcon Black Badge",
       "AI Thor Error",
       "Noods Folder",
+      "Games, unlimited games, but no games"
       "Asmongold Clip",
       "Work on game",
       "(b)ADs",
