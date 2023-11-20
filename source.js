@@ -62,7 +62,6 @@ function createBingoCard() {
       "Music Stops for Some Serious Stuff",
       "Shay Appearance",
       "Blizzard Stories",
-      "\"Cyber\"",
       "Make Box Move",
       "\"100%\"",
       "Work/Sleep Schedule",
