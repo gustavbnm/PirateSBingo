@@ -19,7 +19,7 @@ function createBingoCard() {
       "Defcon Black Badge",
       "AI Thor Error",
       "Noods Folder",
-      "Asmondgold Clip",
+      "Asmongold Clip",
       "Work on game",
       "(b)ADs",
       "Holding Ferret",
