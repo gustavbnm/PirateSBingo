@@ -49,7 +49,6 @@ function createBingoCard() {
       "Life Story",
       "Shorts Strategy",
       "Subscriber Count",
-       "\"No sevens in chat\"",
       "7",
       "Block Game",
       "Hotdog Clip",
@@ -63,7 +62,6 @@ function createBingoCard() {
       "Shay Appearance",
       "Make Box Move",
       "\"100%\"",
-      "Work/Sleep Schedule",
       "Thor's out of touch",
       "Our Dad",
       "Chat is Goblins",
@@ -80,7 +78,6 @@ function createBingoCard() {
       "Cursed TTS Donation Message",
       "You interacted with my Shorts, You're stuck with me.",
       "Eagles Per Gun, Feet/Centipedes",
-      "\"Deeply Hilarious\"",
     ];
 
     shuffleArray(phrases);
